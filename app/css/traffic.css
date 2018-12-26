@@ -1,0 +1,309 @@
+
+/***
+* Styles.
+***/
+
+
+#chart {
+	width: 640px;
+	height: auto;
+}
+#chart2 {
+	width: 640px;
+	height: auto;
+}
+
+/***
+* Link.
+***/
+a {
+	color: rgb(0,0,0);
+	cursor: hand; cursor: pointer;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/***
+* Defaults.
+***/
+body {
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+
+/***
+* Knop.
+***/
+.button {
+	background-color: rgb(160,209,239);
+	border: 1px solid rgb(0,0,0);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	border-style: outset;
+	border-color: rgb(225,225,225);
+	border-width: medium;
+}
+
+.button:focus {
+	background-color: rgb(230,0,126);
+	border: 1px solid rgb(0,0,0);
+	color: rgb(255,255,255);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	border-style: inset;
+	border-color: rgb(225,225,225);
+	border-width: medium;
+	cursor: hand; cursor: pointer;
+}
+
+.button:hover {
+	cursor: hand; cursor: pointer;
+}
+
+
+/***
+* Foutmelding.
+***/
+.error {
+	color: rgb(255,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Kop van een overzicht.
+***/
+.header {
+	color: rgb(230,0,126);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+
+/***
+* Label.
+***/
+.label {
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Label niet vet gedrukt.
+***/
+.labelNotBold {
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
+
+
+/***
+* Titel van een bericht.
+***/
+.messageTitle {
+	color: rgb(230,0,126);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+/***
+* Grijze regel in een overzicht.
+***/
+.overview_item_gray {
+	background-color: rgb(221,221,221);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Geselecteerde regel in een overzicht.
+***/
+.overview_item_gray:hover {
+	background-color: rgb(230,0,126);
+	color: rgb(255,255,255);
+	cursor: hand; cursor: pointer;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Grijze regel met groene tekst in een overzicht.
+***/
+.overview_item_gray_confirm {
+	background-color: rgb(221,221,221);
+	color: rgb(0,128,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Grijze regel met rode tekst in een overzicht.
+***/
+.overview_item_gray_error {
+	background-color: rgb(221,221,221);
+	color: rgb(255,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Grijze regel met blauwe tekst in een overzicht.
+***/
+.overview_item_gray_info {
+	background-color: rgb(221,221,221);
+	color: rgb(1,104,179);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Grijze regel in een overzicht (gebruikt voor niet hoveren).
+***/
+.overview_item_gray_alt {
+	background-color: rgb(221,221,221);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Niet selecteerbaar grijze regel in een overzicht.
+***/
+.overview_item_lightgray {
+	background-color: rgb(221,221,221);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Niet selecteerbaar witte regel in een overzicht.
+***/
+.overview_item_lightwhite {
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Witte regel in een overzicht.
+***/
+.overview_item_white {
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Geselecteerde regel in een overzicht.
+***/
+.overview_item_white:hover {
+	background-color: rgb(230,0,126);
+	color: rgb(255,255,255);
+	cursor: hand; cursor: pointer;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Witte regel met groene tekst in een overzicht.
+***/
+.overview_item_white_confirm {
+	background-color: rgb(255,255,255);
+	color: rgb(0,128,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Witte regel met rode tekst in een overzicht.
+***/
+.overview_item_white_error {
+	background-color: rgb(255,255,255);
+	color: rgb(255,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Witte regel met blauwe tekst in een overzicht.
+***/
+.overview_item_white_info {
+	background-color: rgb(255,255,255);
+	color: rgb(1,104,179);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Witte regel in een overzicht (gebruikt voor niet hoveren).
+***/
+.overview_item_white_alt {
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+/***
+* Tekstveld.
+***/
+.textfield {
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(127,157,185);
+	color: rgb(0,0,0);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
+
+
+.textfield:focus {
+	border-style: inset;
+	border-color: rgb(0,0,0);
+}
+
+
+/***
+* Titel.
+***/
+.title {
+	color: rgb(230,0,126);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+/***
+* Als een veld uitgeschakeld is.
+***/
+.disabled {
+	background-color: rgb(238,238,238);
+	border: 1px solid rgb(127,157,185);
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
